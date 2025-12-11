@@ -96,7 +96,7 @@
 		<h2>Apresentação</h2>
 		<div class="box">
             <strong></strong>
-		   Sou Ana Faleiro, busco oportunidade como desenvolvedor web ou analista de sistemas, aplicando conhecimentos em HTML, Visual Studio e MariaDB para contribuir
+		   Sou Ana Faleiro, busco oportunidade como desenvolvedor web, analista de sistemas ou designer grafíco, aplicando conhecimentos em HTML, Visual Studio e MariaDB para contribuir
 		   com o desenvolvimento de projetos inovadores e soluções eficientes, aprimorando minhas habilidades técnicas e colaborando com equipes multidisciplinares.
           
         </div>
@@ -133,6 +133,10 @@
             <div class="skill-card">
                 <img src="img/html.png" alt="Java">
                 <p>HTML</p>
+            </div>
+			    <div class="skill-card">
+                <img src="img/canva.png" alt="Java">
+                <p>Canva</p>
             </div>
         </div>
 
