@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+  <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0d1117; /* fundo escuro estilo GitHub */
+            color: #e6edf3;      /* texto claro */
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 900px;
+            margin: auto;
+            padding-top: 30px;
+        }
+
+        h1, h2 {
+            text-transform: uppercase;
+            color: #58a6ff; /* azul bonito modo escuro */
+        }
+
+        .foto {
+            width: 150px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 50%;
+            border: 3px solid #58a6ff;
+        }
+
+        .box {
+            border: 2px solid #30363d;
+            background: #161b22;
+            padding: 15px;
+            border-radius: 15px;
+            margin: 20px 0;
+            box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+        }
+
+        .skills {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+            margin-top: 20px;
+        }
+
+        .skill-card {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 15px;
+            padding: 15px;
+            width: 150px;
+            transition: 0.3s;
+        }
+
+        .skill-card:hover {
+            transform: scale(1.07);
+            border-color: #58a6ff;
+            box-shadow: 0 0 10px #58a6ff55;
+        }
+
+        .skill-card img {
+            width: 80px;
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #7d8590;
+        }
+
+        a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        
+      
+
+        
+		<h2>Apresentação</h2>
+		<div class="box">
+            <strong></strong>
+		   Sou Ana Faleiro, busco oportunidade como desenvolvedor web ou analista de sistemas, aplicando conhecimentos em HTML, Visual Studio e MariaDB para contribuir
+		   com o desenvolvimento de projetos inovadores e soluções eficientes, aprimorando minhas habilidades técnicas e colaborando com equipes multidisciplinares.
+          
+        </div>
+		<h2>Experiências</h2>
+        <div class="box">
+            <strong>2025 - atual</strong><br>
+            Segundo ano de GPSI <br>
+           
+			Desenvolvimento de site usando HTML e CSS.
+			<br> Responsável pela instalação e utilizaçao de Visual Code.</br>
+		   Criação de banco de dados em MariaDB para gerenciamento de clientes.
+		
+        </div>
+
+        <div class="box">
+            <strong>2024</strong><br>
+            Primeiro ano de GPSI<br>
+            Responsável pela instalação e utilizaçao de Visual Code.
+        </div>
+
+        <hr style="margin: 40px 0; border-color: white;">
+
+        <h2>Habilidades</h2>
+
+        <div class="skills">
+            <div class="skill-card">
+                <img src="img/visual.png" alt="HTML">
+                <p>Visual Code</p>
+            </div>
+            <div class="skill-card">
+                <img src="img/maria.png" alt="CSS">
+                <p>MariaDB</p>
+            </div>
+            <div class="skill-card">
+                <img src="img/html.png" alt="Java">
+                <p>HTML</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>Feito por Ana Luiza</p>
+       
+        </footer>
+
+    </div>
+
+</body>
+</html>
